@@ -1,0 +1,13 @@
+[package]
+name = "narratordb"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "_narratordb"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3 = { version = "0.22", features = ["extension-module", "abi3-py39"] }
+
+[dev-dependencies]

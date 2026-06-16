@@ -1,0 +1,18 @@
+.claude
+
+# build artifacts
+/target
+*.so
+*.pyd
+
+# maturin / pip
+dist/
+*.egg-info/
+__pycache__/
+.venv/
+
+# dev files
+.etc/
+
+# Added by cargo
+/target
